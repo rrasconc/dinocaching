@@ -1,0 +1,21 @@
+{
+  "name": "pokecaching",
+  "version": "1.0.0",
+  "description": "redis caching practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "2.0.19"
+  },
+  "dependencies": {
+    "express": "4.18.1",
+    "node-fetch": "^3.2.9",
+    "redis": "^4.2.0",
+    "response-time": "^2.3.2"
+  }
+}
